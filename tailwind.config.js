@@ -18,6 +18,9 @@ module.exports = {
           orange: '#FF8B00',
         },
       },
+      fontFamily: {
+        mono: ['var(--font-roboto-mono)'],
+      },
     },
   },
   plugins: [],
