@@ -1,7 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-
 export default function Footer() {
   function toTwitter() {
     window.open('https://twitter.com/OrdersExchange', '_blank')
@@ -19,7 +17,7 @@ export default function Footer() {
     <footer className="flex justify-between items-center py-6">
       {/* left */}
       <div className="space-y-1">
-        <Image src="/logo.png" alt="Orders Logo" height="33" width="147" />
+        <img src="/logo.png" alt="Orders Logo" height="33" width="147" />
         <div className="text-xs lg:text-sm lg:flex lg:gap-4 text-primary-gray/50">
           <p>Orders.Exchange@2023</p>
           <p>All Rights Reserved.</p>
