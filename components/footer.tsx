@@ -20,21 +20,33 @@ export default function Footer() {
       {/* left */}
       <div className="space-y-1">
         <Image src="/logo.png" alt="Orders Logo" height="33" width="147" />
-        <div className="text-xs lg:text-sm lg:flex lg:gap-4">
+        <div className="text-xs lg:text-sm lg:flex lg:gap-4 text-primary-gray/50">
           <p>Orders.Exchange@2023</p>
           <p>All Rights Reserved.</p>
         </div>
       </div>
 
       {/* right */}
-      <div className="flex gap-x-2 lg:gap-x-6">
-        <button title="twitter" onClick={toTwitter}>
-          <img src="/icon_twitter.png" alt="Twitter" className="h-8 w-8 lg:h-10 lg:w-10" />
+      <div className="flex gap-x-2 lg:gap-x-4">
+        <button
+          title="twitter"
+          onClick={toTwitter}
+          className="hover:shadow-md hover:shadow-amber-500/50 rounded-full p-1"
+        >
+          <img src="/icon_twitter.png" alt="Twitter" className="h-8 w-8 lg:h-10 lg:w-10 " />
         </button>
-        <button title="discord" onClick={toDiscord}>
+        <button
+          title="discord"
+          onClick={toDiscord}
+          className="hover:shadow-md hover:shadow-amber-500/50 rounded-full p-1"
+        >
           <img src="/icon_discord.png" alt="Discord" className="h-8 w-8 lg:h-10 lg:w-10" />
         </button>
-        <button title="telegram" onClick={toTelegram}>
+        <button
+          title="telegram"
+          onClick={toTelegram}
+          className="hover:shadow-md hover:shadow-amber-500/50 rounded-full p-1"
+        >
           <img src="/icon_telegram.png" alt="Telegram" className="h-8 w-8 lg:h-10 lg:w-10" />
         </button>
       </div>
