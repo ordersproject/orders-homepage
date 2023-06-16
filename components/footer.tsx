@@ -9,8 +9,8 @@ export default function Footer() {
     window.open('https://discord.gg/3Qq8QWQ', '_blank')
   }
 
-  function toTelegram() {
-    window.open('https://t.me/OrdersExchange', '_blank')
+  function toGithub() {
+    window.open('https://github.com/ordersproject/orders-mvp', '_blank')
   }
 
   return (
@@ -41,11 +41,11 @@ export default function Footer() {
           <img src="/icon_discord.png" alt="Discord" className="h-8 w-8 lg:h-10 lg:w-10" />
         </button>
         <button
-          title="telegram"
-          onClick={toTelegram}
+          title="github"
+          onClick={toGithub}
           className="hover:shadow-md hover:shadow-amber-500/50 rounded-full p-1"
         >
-          <img src="/icon_telegram.png" alt="Telegram" className="h-8 w-8 lg:h-10 lg:w-10" />
+          <img src="/icon_github.png" alt="Telegram" className="h-8 w-8 lg:h-10 lg:w-10" />
         </button>
       </div>
     </footer>
